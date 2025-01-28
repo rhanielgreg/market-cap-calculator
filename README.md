@@ -1,45 +1,45 @@
-# ?? Market Cap Bot
+#  Market Cap Bot
 
-Este é um bot que monitora o **Market Cap** de um token e envia atualizações automáticas para **Telegram** e **Discord**, incluindo um gráfico visual das últimas variações.
+Este Ã© um bot que monitora o **Market Cap** de um token e envia atualizaÃ§Ãµes automÃ¡ticas para **Telegram** e **Discord**, incluindo um grÃ¡fico visual das Ãºltimas variaÃ§Ãµes.
 
-## ?? Funcionalidades
-? Obtém o Market Cap e preço do token via API
-? Gera um gráfico de histórico do Market Cap
-? Envia atualizações automáticas no Telegram e Discord
-? Implementa tentativas automáticas em caso de falha no envio
-? Usa compressão de imagem para otimizar envios
+##  Funcionalidades
+? ObtÃ©m o Market Cap e preÃ§o do token via API
+? Gera um grÃ¡fico de histÃ³rico do Market Cap
+? Envia atualizaÃ§Ãµes automÃ¡ticas no Telegram e Discord
+? Implementa tentativas automÃ¡ticas em caso de falha no envio
+? Usa compressÃ£o de imagem para otimizar envios
 
-## ?? Configuração
-Antes de rodar o bot, configure os seguintes valores no código:
+##  ConfiguraÃ§Ã£o
+Antes de rodar o bot, configure os seguintes valores no cÃ³digo:
 
 - **DISCORD_TOKEN**: Token do bot do Discord
-- **DISCORD_CHANNEL_ID**: ID do canal onde o bot enviará as mensagens
+- **DISCORD_CHANNEL_ID**: ID do canal onde o bot enviarÃ¡ as mensagens
 - **TOKEN**: Token do bot do Telegram
-- **CHAT_ID**: ID do chat ou grupo onde o bot enviará as mensagens
+- **CHAT_ID**: ID do chat ou grupo onde o bot enviarÃ¡ as mensagens
 - **API_URL**: URL da API que fornece os dados do token
-- **PURCHASE_MARKET_CAP**: Valor do Market Cap na compra (usado para calcular a variação percentual)
+- **PURCHASE_MARKET_CAP**: Valor do Market Cap na compra (usado para calcular a variaÃ§Ã£o percentual)
 
-## ?? Instalação
+##  InstalaÃ§Ã£o
 
-1. Clone o repositório:
+1. Clone o repositÃ³rio:
    ```bash
    git clone https://github.com/rhanielgreg/market-cap-calculator.git
    cd market-cap-bot
    ```
-2. Instale as dependências necessárias:
+2. Instale as dependÃªncias necessÃ¡rias:
    ```bash
    pip install -r requirements.txt
    ```
 
-## ? Como Usar
+##  Como Usar
 Execute o bot com o comando:
 ```bash
 python market_cap_bot.py
 ```
 
-O bot atualizará os dados a cada **5 minutos** e enviará automaticamente as informações ao **Telegram e Discord**.
+O bot atualizarÃ¡ os dados a cada **5 minutos** e enviarÃ¡ automaticamente as informaÃ§Ãµes ao **Telegram e Discord**.
 
-## ?? Dependências
+## DependÃªncias
 - `requests`
 - `telegram`
 - `discord`
@@ -48,13 +48,13 @@ O bot atualizará os dados a cada **5 minutos** e enviará automaticamente as info
 - `asyncio`
 - `logging`
 
-Instale todas as dependências com:
+Instale todas as dependÃªncias com:
 ```bash
 pip install requests python-telegram-bot discord matplotlib pillow
 ```
 
-## ?? Contribuição
-Sinta-se à vontade para abrir **issues** ou **pull requests** para melhorias!
+##  ContribuiÃ§Ã£o
+Sinta-se Ã  vontade para abrir **issues** ou **pull requests** para melhorias!
 
-## ?? Créditos
+## CrÃ©ditos
 Desenvolvido por **@memeboomcomunidade** ??
