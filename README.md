@@ -3,11 +3,11 @@
 Este é um bot que monitora o **Market Cap** de um token e envia atualizações automáticas para **Telegram** e **Discord**, incluindo um gráfico visual das últimas variações.
 
 ##  Funcionalidades
-? Obtém o Market Cap e preço do token via API
-? Gera um gráfico de histórico do Market Cap
-? Envia atualizações automáticas no Telegram e Discord
-? Implementa tentativas automáticas em caso de falha no envio
-? Usa compressão de imagem para otimizar envios
+- Obtém o Market Cap e preço do token via API
+- Gera um gráfico de histórico do Market Cap
+- Envia atualizações automáticas no Telegram e Discord
+- Implementa tentativas automáticas em caso de falha no envio
+- Usa compressão de imagem para otimizar envios
 
 ##  Configuração
 Antes de rodar o bot, configure os seguintes valores no código:
