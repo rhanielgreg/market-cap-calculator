@@ -57,4 +57,4 @@ pip install requests python-telegram-bot discord matplotlib pillow
 Sinta-se à vontade para abrir **issues** ou **pull requests** para melhorias!
 
 ## Créditos
-Desenvolvido por **@memeboomcomunidade** ??
+Desenvolvido por **http://t.me/memeboomcomunidade/** 
