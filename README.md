@@ -34,7 +34,7 @@ Antes de rodar o bot, configure os seguintes valores no código:
 ##  Como Usar
 Execute o bot com o comando:
 ```bash
-python market_cap_bot.py
+python mktcapbot.py
 ```
 
 O bot atualizará os dados a cada **5 minutos** e enviará automaticamente as informações ao **Telegram e Discord**.
